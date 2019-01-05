@@ -4,10 +4,6 @@ def my_each(array)
     while i < array.length
       yield array[i]
       i += 1 
-      puts array
     end
     array
-  else
-    puts "Hey! No block was given!"
-  end
 end
